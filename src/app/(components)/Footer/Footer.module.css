@@ -1,0 +1,35 @@
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer p {
+    flex-basis: 100%;
+    margin: 10px 0;
+}
+
+.footer li {
+    margin: 0 10px;
+}
+
+.footer li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer li a:hover {
+    text-decoration: underline;
+}

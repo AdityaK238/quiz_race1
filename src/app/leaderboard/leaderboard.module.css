@@ -1,0 +1,67 @@
+.scoreboardContainer {
+    width: 80%;
+    max-width: 800px;
+    margin: 50px auto;
+    border: 2px solid #3498db; 
+    border-radius: 8px;
+    overflow: hidden; 
+  }
+  
+  .scoreboard {
+    background: url(https://t4.ftcdn.net/jpg/06/91/05/19/240_F_691051962_GFhQPOAXABmf7l706q89b2PFh6FnB1kI.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 40px; 
+    box-sizing: border-box;
+  }
+  
+  .scoreboard h2 {
+    font-size: 5rem; 
+    margin-bottom: 30px; 
+  }
+  
+  .scoreboard .summary {
+    font-size: 1.8rem; 
+    margin-bottom: 20px;
+  }
+  
+  .playerTable {
+    margin-top: 20px;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .table th,
+  .table td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 12px;
+  }
+  
+  .table th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+ 
+  
+  .table tr:hover {
+    background-color: #ddd;
+  }
+  
+  .top-player {
+    background-color: #FFD700; 
+    font-weight: bold;
+  }
+  
+  .progress-bar {
+    height: 10px;
+    background-color: #4CAF50;
+  }
+  

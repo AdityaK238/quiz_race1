@@ -1,0 +1,54 @@
+/* Header.css */
+
+.appHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #282c34;
+    color: white;
+    position: relative; 
+    max-width: 100%;
+  }
+  
+  .appWrapperInfo {
+    flex: 1;
+    padding: 20px;
+    order: 1; 
+    text-align: left;
+  }
+  
+  .appHeader {
+    font-size: 5.5rem;
+  }
+  
+  .p__opensans {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+ 
+  .appWrapperImg {
+    flex: 0 0 auto; 
+    margin-left: auto; 
+    order: 2; 
+  }
+  
+  .app-wrapper-img img {
+    width: 100%;
+    max-width: 650px; 
+    height: 400px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .appHeader {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .appWrapperImg {
+      margin-left: 0; /* Center the image horizontally on smaller screens */
+      margin-top: 20px; /* Adjust spacing */
+    }
+  }
+  
